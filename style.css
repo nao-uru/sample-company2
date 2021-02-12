@@ -1,0 +1,412 @@
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: #d2d2d2;
+  margin: 0;
+  color: #666;
+}
+
+.container {
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.h-title {
+  height: 100px;
+  border-top: 5px solid blue;
+  display: flex;
+  align-items: center;
+}
+
+.h-logo {
+  color: #0e36ca;
+  width: 500px;
+  margin-left: 4%;
+}
+
+.h-menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.h-list {
+  width: calc(100%/6);
+  list-style: none;
+  border: 1px solid gray;
+}
+
+.h-list:hover {
+  background-color: #8290c2a1;
+  transition: 1s;
+}
+
+.h-list a {
+  display: block;
+  text-decoration: none;
+}
+
+.h-l-box {
+  border-left: 2px solid blue;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h-l-top {
+  color: rgb(78, 75, 75);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.h-l-bottom {
+  font-size: 10px;
+  color: rgb(167, 162, 162);
+}
+
+.h-imagebox {
+  width: 100%;
+  height: 300px;
+  background-image: url(photos/tree.jpg);
+  background-size: cover;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.main {
+  width: 70%;
+}
+
+.title {
+  background: linear-gradient(#1140ef, #0e36ca);
+  box-shadow: 1px 2px 5px #ccc;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.title::first-letter {
+  border-left: 3px solid rgb(83, 83, 212);
+  padding-left: 16px;
+}
+
+.subtitle {
+  font-size: 18px;
+  border-radius: 4px;
+  background: linear-gradient(#fff, #eee);
+  border: 1px solid #ccc;
+  padding: 6px 20px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+dd a, dt{
+  border-bottom: 1px solid gray;
+  margin: 5px;
+}
+
+dd a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dt {
+  margin:0 10px 0 10px ;
+  float: left;
+  clear: left;
+}
+
+.log {
+  text-align: right;
+  margin: 10px;
+}
+
+.kako {
+  text-align: right;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.new {
+  background-color: red;
+  font-size: 14px;
+  color: #fff;
+  padding: 2px 5px;
+  margin: 0 5px 5px 0;
+  border-radius: 2px;
+  
+}
+
+.main p {
+  padding: 0 20px 15px;
+}
+
+.side {
+  width: 25%;
+}
+
+.side h2 {
+  padding: 15px 10px;
+  border-bottom: 1px solid #d2d2d2;
+  border-top: 5px solid #0e36ca;
+  background-color: #eee;
+  font-weight: bold;
+  margin: 0;
+}
+
+.side ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+.side li  {
+  list-style: none;
+  padding: 5px 10px;
+  /* height: 50px; */
+  border-bottom: 1px solid #d2d2d2;
+  cursor: pointer;
+}
+
+.side li:hover {
+  background-color: white;
+  color: #0e36ca;
+}
+
+.menu-box {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d2d2d2;
+  background: linear-gradient(#fff, #eee);
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.menu-left {
+  width: 40%;
+  margin-right: 5px;
+
+}
+
+.menu-info img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-info {
+  display: flex;
+}
+
+.menu-info p ,.menu p ,.company p {
+  margin: 0;
+}
+
+.menu-info a {
+  color: #0e36ca;
+}
+
+
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+
+.company span {
+  margin: 5px;
+  font-weight: normal;
+  text-align: center;
+}
+
+table {
+  color: #666;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  font-weight: normal;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-td {
+  width: 30%;
+}
+
+.ws {
+  text-align: left;
+}
+
+textarea {
+  width: 90%;
+  height: 300px;
+}
+
+.submit {
+  text-align: center;
+}
+
+.card {
+  /* position: relative; */
+  background: linear-gradient(#fff, #eee);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(182, 179, 179);
+  box-shadow: 1px 2px 5px #ccc;
+}
+
+.service-link {
+  /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    height:100%;
+    width: 100%;
+}
+
+.service-link:hover {
+  background-color: rgba(240, 255, 240, 0.171);
+}
+
+.card-box {
+  display: flex;
+  /* height: 150px; */
+  width: 100%;
+}
+
+.card img {
+  width: 30%;
+  height: 30%;
+}
+
+.card-contents {
+  width: 100%;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  color: white;
+  border-radius: 2px;
+  width: 30px ;
+  height: 30px ;
+  background-color: rgb(129, 126, 126);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer {
+  height: 80px;
+  background-color: #0e36ca;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 13px;
+}
+
+
+/* メニュー */
+
+.m-menu {
+  display: none;
+}
+
+.hide {
+  position: absolute;
+  left: -50vw;
+}
+
+.m-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 2px solid black;
+}
+
+.close {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  border: 1px solid black;
+}
+
+.m-icon {
+  padding: 8px;
+  font-size: 45px;
+  color: black;
+  cursor: pointer;
+}
+
+.m-icon:hover {
+  opacity: .7;
+}
+
+input[type="checkbox"]:checked > .m-button {
+  display: none;
+}
+
+
+.m-nav {
+  position: absolute;
+  left: -200vw;
+  top: 100px;
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+input[type="checkbox"]:checked ~ .m-nav {
+  left: 0;
+}
+
+.m-ul {
+  padding: 0;
+}
+
+.m-list {
+  line-height: 2;
+  list-style: none;
+  border-bottom: 1px solid white;
+  padding: 15px 20px;
+}
+
+.m-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.m-l-top {
+  font-size: 20px;
+}
+
+.m-l-bottom {
+  font-size: 16px;
+}

@@ -1,0 +1,130 @@
+/* タブレット用CSS */
+@media screen and (max-width:680px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .h-imagebox {
+    width: 100%;
+    height: 250px;
+  }
+
+  .contents {
+    display: block;
+  }
+
+  .h-nav {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .side {
+    width: 100%;
+  }
+
+  .title, .subtitle {
+    font-size: 15px;
+  }
+
+  .menu-info img {
+    height: 100%;
+  }
+
+  section p, dl {
+    font-size: 12px;
+  }
+
+  .menu h2, .menu-box h2 {
+    font-size: 15px;
+  }
+
+  .menu-right p, .menu-right a,footer p, .company span,.card-contents p,table  {
+    font-size: 12px;
+  }
+
+  .m-menu {
+    display: block;
+  }
+
+  .menu-info img {
+    width: 60%;
+  }
+
+}
+
+/* スマホ用CSS */
+@media screen and (max-width:680px) {
+  .h-title {
+    height: 70px;
+  }
+
+  .h-imagebox {
+    width: 100%;
+    height: 150px;
+  }
+
+  .title ,.subtitle {
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  section {
+    margin-bottom: 60px;
+  }
+
+  .new {
+    font-size: 10px;
+    color: #fff;
+    padding: 1px 2px;
+    margin: 0 2px 2px 0;
+    
+  }
+
+  .side h2 {
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .menu {
+    margin-bottom: 10px;
+  }
+
+  .menu-info a, .menu-info p {
+    font-size: 10px;
+  }
+
+  .m-button {
+    right: 15px;
+    top: 15px;
+  }
+
+  .m-icon {
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+  }
+
+  .m-list {
+    padding: 10px;
+  }
+
+  .m-nav {
+    height: 100vh;
+  }
+
+  .m-l-top {
+    font-size: 16px;
+  }
+
+  .h-title, dd a, dt, .new, main p, .font, .side h2, .side li , .company p, .company span,.m-l-bottom {
+    font-size: 12px;
+  }
+  
+
+}
